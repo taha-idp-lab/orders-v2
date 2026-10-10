@@ -15,7 +15,7 @@ Instrumentator().instrument(app).expose(app, include_in_schema=False)
 
 @app.get("/")
 def root() -> dict:
-    return {"service": SERVICE_NAME, "message": "Hello from the Internal Developer Platform"}
+    return {"service": SERVICE_NAME, "message": "orders-v2 v2"}
 
 
 @app.get("/health")
