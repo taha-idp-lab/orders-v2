@@ -1,0 +1,6 @@
+apiVersion: v2
+name: orders-v2
+description: Helm chart for orders-v2
+type: application
+version: 0.1.0
+appVersion: "0.1.0"
