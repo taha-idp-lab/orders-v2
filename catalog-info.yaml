@@ -8,6 +8,10 @@ metadata:
     backstage.io/techdocs-ref: dir:.
     backstage.io/kubernetes-id: orders-v2
     argocd/app-name: orders-v2-dev
+  links:
+    - url: http://localhost:3001/d/fastapi-services?var-service=orders-v2
+      title: Grafana dashboard
+      icon: dashboard
   tags:
     - python
     - fastapi
