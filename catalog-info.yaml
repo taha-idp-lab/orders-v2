@@ -7,6 +7,7 @@ metadata:
     github.com/project-slug: taha-idp-lab/orders-v2
     backstage.io/techdocs-ref: dir:.
     backstage.io/kubernetes-id: orders-v2
+    argocd/app-name: orders-v2-dev
   tags:
     - python
     - fastapi
